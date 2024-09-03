@@ -2,7 +2,7 @@ import './App.css';
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import { Formulario } from './componente/Formulario/Formulario.jsx';
 import NavBar from './componente/NavBar.jsx';
-import Principal from './componente/principal/Principal.jsx';
+import { Principal}  from './componente/Principal/Principal.jsx';
 
 function App() {
 
