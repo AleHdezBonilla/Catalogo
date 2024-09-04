@@ -11,3 +11,352 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.texto_1 {
+  color: black;
+  font-size: 20px;
+    background-color: #F8E0E6;
+}
+#img_1 {
+  width: 100px;
+    background-color: #F8E0E6;
+}
+.container_1 {
+    background-color: #F8E0E6;
+  display: grid;
+  grid-template-columns: 50px 120px 120px 480px
+  50px 100px 20px 70px 20px 7px 50px 20px 20px
+  7px 50px;
+  grid-template-rows: 50px;
+}
+#img_2 {
+  width: 40px;
+}
+.barrabusqueda {
+    background-color: #F8E0E6;
+  background:lightgray ;
+  font-size: 40px;
+  color: black;
+  border-radius: 10px;
+  width: 500px;
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+}
+.busqueda {
+    background-color: #F8E0E6;
+  background: #B1B1B1;
+  border-radius: 10px;
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+  width: 50px;
+}
+.img_3 {
+  width: 50px;
+}
+.espacioenblanco {
+    background-color: #F8E0E6;
+  width: 100px;
+}
+.linea_1 {
+  height: 60px;
+  width: 2px;
+  background: black;
+}
+.img_4 {
+  width: 50px;
+}
+.espacioenblanco {
+    background-color: #F8E0E6;
+  width: 20px;
+}
+.linea_2 {
+  height: 60px;
+  width: 2px;
+  background: black;
+}
+.img_5 {
+  width: 50px;
+}
+.linea_3 {
+  height: 60px;
+  width: 2px;
+  background: black;
+}
+.img_6 {
+  width: 50px;
+}
+.container_2 {
+    background-color: #F8E0E6;
+  display: grid;
+  grid-template-columns: 280px 200px 400px
+  200px;
+  grid-template-rows: 60px 2px;
+}
+.ENVIOS {
+    background-color: #F8E0E6;
+  color: black;
+  font-size: 19px;
+  width: 200px;
+  height: 20px;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  text-align: center;
+}
+.ATENCION {
+    background-color: #F8E0E6;
+  color: black;
+  font-size: 19px;
+  width: 400px;
+  height: 20px;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  text-align: center;
+}
+.DESCUENTOS {
+    background-color: #F8E0E6;
+  color: black;
+  font-size: 19px;
+  width: 200px;
+  height: 20px;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  text-align: center;
+}
+.linea_4 {
+  width: 1350px;
+  height: 2px;
+  background-color: black;
+}
+.container_5 {
+    background-color: #FBFBEF;
+  display: grid;
+  grid-template-columns: ;
+  grid-template-rows: 80px;
+}
+.container_3 {
+    background-color: #FBFBEF;
+  display: grid;
+  grid-template-columns: 100px 200px 500px
+  450px;
+  grid-template-rows: 140px 160px 160px;
+}
+.img_7 {
+   background-color: #FBFBEF;
+  width: 400px;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+}
+.DESCRIPCION {
+  color: black;
+    background-color: #FBFBEF;
+}
+.MARCA {
+    background-color: #FBFBEF;
+  color: #2E2E2E;
+}
+.PRECIO {
+    background-color: #FBFBEF;
+  color: #2E2E2E;
+}
+.INFORMACION {
+    background-color: #FBFBEF;
+  color: #2E2E2E;
+  width: 200px;
+  height: 50px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+}
+.COMPRA {
+  background-color: #FBFBEF;
+  color: #0080FF;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  width: 280px;
+}
+.subimg_1 {
+  width: 20px
+}
+.subimg_2 {
+  width: 20px;
+}
+.subcontainer_1 {
+    background-color: #FBFBEF;
+  width: 280px;
+}
+
+.img_8 {
+  width: 130px;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+}
+.img_9 {
+  width: 130px;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+}
+.img_10 {
+  width: 130px;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+}
+.container_4 {
+  background-color: #FBFBEF;
+  display: grid;
+  grid-template-columns: 400px 40px 100px 70px
+  40px 100px;
+  grid-template-rows: ;
+}
+.Color_1 {
+  width: 40px;
+  background-color: pink;
+  height: 30px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  align-content: center;
+}
+.texto_2 {
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  text-align: center;
+  width: 40px;
+  font-size: 30px;
+}
+.subcontainer_3 {
+  background-color: #FBFBEF;
+display: grid;
+grid-template-columns: 40px;
+grid-template-rows: 20px;
+align-content: center ;
+}
+.img_11 {
+  width: 18px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+}
+.img_12 {
+  width: 18px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+}
+.subcontainer_4 {
+  background-color: #FBFBEF;
+display: grid;
+grid-template-columns: 40px;
+grid-template-rows: 20px;
+align-content: flex-start ;
+}
+.img_13 {
+  width: 15px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+}
+.img_14 {
+  width: 15px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+}
+.linea_5 {
+  width: 1350px;
+  height: 2px;
+  background-color: black;
+}
+.Container_6 {
+  background-color: #FBFBEF;
+  display: grid;
+  grid-template-columns: 200px 0px 200px 200px 200px
+  200px 200px;
+  grid-template-rows: ;
+}
+.img_15 {
+  width: 200px;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+}
+.blanco_22 {
+  height: 80px;
+    background-color:#FBFBEF;
+}
+.img_16 {
+  width: 200px;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+}
+.img_17 {
+  width: 200px;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+}
+.container_7 {
+    background-color: #FBFBEF;
+  display: grid;
+  grid-template-columns: 200px 300px 100px 300px
+  100px 300px;
+  grid-template-rows: 40px 40px 50px;
+}
+.container_8 {
+    background-color:#FBFBEF;
+  display: grid;
+  grid-template-columns: 500px 40px 200px 40px;
+  grid-template-rows: 40px 0px;
+}
+.blanco_34 {
+  height: 80px;
+    background-color: #FBFBEF;
+}
+.blanco_35 {
+    background-color: #FBFBEF;
+  width: 200px;
+}
+.img_18 {
+  width: 40px;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  align-items: flex-end;
+}
+.texto_3 {
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  text-align: center;
+  width: 40px;
+  font-size: 40px;
+}
+.subcontainer_8 {
+  display: grid;
+  grid-template-columns: 40px 40px 40px 40px 40px;
+  grid-template-rows: ;
+  background-color: #FBFBEF;
+}
+.img_19 {
+  width: 40px;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  align-items: flex-end;
+}
+
+body {
+  background-color:#FBFBEF ;
+
+}

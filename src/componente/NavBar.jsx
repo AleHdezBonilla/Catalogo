@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import styles from "./NavBar.module.css"
+import { Formulario } from './Formulario/Formulario';
 
 const links = [
     {
@@ -28,7 +29,9 @@ const NavBar = () => {
     {links.map(x =>  (
             <Link to= {x.href} > {x.name}</Link>
         ))}
-    </ul></div>;
+    </ul>
+
+</div>;
 };
 
 export default NavBar
