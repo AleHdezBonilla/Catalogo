@@ -1,4 +1,5 @@
 import React from 'react'
+import { Formulario } from '../Formulario/Formulario'
 
 export function Principal() {
   return (
@@ -20,7 +21,7 @@ export function Principal() {
                             <a href="#" class="nav-link active">Catalogo</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">Contacto</a>
+                            <a href="#" class="nav-link" className={Formulario}>Contacto</a>
                         </li>
                     </ul>
                     <a href="carrito.php" class="btn btn-primary">Carrito</a>

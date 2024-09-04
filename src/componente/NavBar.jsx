@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import styles from "./NavBar.module.css"
 
 const links = [
     {
@@ -22,11 +23,12 @@ const links = [
 ];
 
 const NavBar = () => {
-  return <div> 
+  return <div  className={styles.NavBar} > 
+    <ul>
     {links.map(x =>  (
             <Link to= {x.href} > {x.name}</Link>
         ))}
-    </div>;
+    </ul></div>;
 };
 
 export default NavBar
