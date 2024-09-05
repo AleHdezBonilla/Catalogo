@@ -19,6 +19,10 @@ const links = [
     {
         name: 'Item', 
         href: '/Item',
+    }, 
+    {
+        name: 'Usuario', 
+        href: '/Usuario',
     }
    
 ];
@@ -30,7 +34,6 @@ const NavBar = () => {
             <Link to= {x.href} > {x.name}</Link>
         ))}
     </ul>
-
 </div>;
 };
 
