@@ -115,6 +115,38 @@ export const Usuario = () => {
           <button type="reset">Reiniciar</button>   
         </li>
       </ul>
+      <div>
+        <h1> Agregar Tarjeta</h1>
+
+        <div>
+      <label>
+      <span>Correo electrónico</span>
+      <input type="text" size="20" data-culqi="card[email]" id="card[email]"/>
+    </label>
+      </div>
+      <div>
+    <label>
+      <span>Número de tarjeta</span>
+      <input type="text" size="20" data-culqi="card[number]" id="card[number]"/>
+    </label>
+  </div>
+  <div>
+    <label>
+      <span>Código de seguridad</span>
+      <input type="text" size="4" data-culqi="card[cvv]" id="card[cvv]"/>
+    </label>
+  </div>
+
+  <div>
+    <label>
+      <span>Fecha expiración (MM/YYYY)</span>
+      <input type="text" size="2" data-culqi="card[exp_month]" id="card[exp_month]"/>
+    </label>
+    <span>/</span>
+    <input type="text" size="4" data-culqi="card[exp_year]" id="card[exp_year]"/>
+  </div>
+  <button  type="button" id="buyButton">Guardar datos bancarios</button>
+      </div>
     </form>
   </div>
 
