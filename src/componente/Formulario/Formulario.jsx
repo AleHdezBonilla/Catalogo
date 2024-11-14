@@ -30,7 +30,6 @@ import ReactDOM from 'react-dom/client';
                   <div class="card-body"> 
                       <div class="d-flex justify-content-between align-items-center">
                           <div class="btn-group">
-                        
                               <a href="#" class="btn btn-primary" onClick={nuevoUsuario}>Crear nueva cuenta</a>
                           </div>
                           <a href="#" class="btn btn-success"onClick={usuarioRegistrado}>Ya estas registrado?</a>

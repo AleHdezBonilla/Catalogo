@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import styles from "./NavBar.module.css"
-import { Formulario } from './Formulario/Formulario';
+
 
 const links = [
     {
@@ -23,6 +23,10 @@ const links = [
     {
         name: 'Usuario', 
         href: '/Usuario',
+    }, 
+    {
+        name: 'Carrito', 
+        href: '/Carrito',
     }
    
 ];
