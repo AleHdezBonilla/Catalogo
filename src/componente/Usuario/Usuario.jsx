@@ -2,91 +2,44 @@ import React from 'react'
 
 export const Usuario = () => {
   return (
-    <div class="contenedor">
+    <div className="contenedorUser">
     <h1>Perfil de usuario</h1>
     <form  id="formulario">
    
       <ul>
-        <li class="fila">
+       
     
-          <input type="text" id="nombre" name="fullname" maxlength="30" size="30" placeholder="(nombre)" required="required" autofocus="autofocus" />
+          <input type="text" class="form-control" id="nombre" name="fullname" maxlength="30" size="30" placeholder="(nombre)" required="required" autofocus="autofocus" />
           <label for="nombre" class="propiedad">Nombre</label>
        
-        <input type="hidden" id="codigo" name="code" value="25" />
-        </li>
+        <input type="hidden" class="form-control" id="codigo" name="code" value="25" />
+  
       
-        <li class="fila">
-          <input type="password" id="password" name="password" size="30" placeholder="(contraseña)" required="required" />
+
+          <input type="password" class="form-control" id="password" name="password" size="30" placeholder="(contraseña)" required="required" />
           <label for="password" class="propiedad">Contraseña</label>
-        </li>
+  
        
-        <li class="fila">
-          <input type="email" id="email" name="email" maxlength="30" size="30" placeholder="(email)" />
-          <label for="email" class="propiedad">Email</label>
-        </li>
-        
-        <li class="fila">
-          <input type="tel" id="telefono" name="phonenumber" maxlength="9" size="11" placeholder="(teléfono)" pattern="[0-9]{9}" />
+      
+          <input type="email"  class="form-control" id="email" name="email" maxlength="30" size="30" placeholder="(email)" />
+          <label for="email"  class="form-control"class="propiedad">Email</label>
+  
+   
+       
+          <input type="tel"  class="form-control" id="telefono" name="phonenumber" maxlength="9" size="11" placeholder="(teléfono)" pattern="[0-9]{9}" />
           <label for="telefono" class="propiedad">Teléfono</label>
-        </li>
+   
         
-        <li class="fila">
-          <input type="url" id="web" name="web" maxlength="30" size="30" placeholder="(url)" value="http://" />
+        
+          <input type="url" class="form-control" id="web" name="web" maxlength="30" size="30" placeholder="(url)" value="http://" />
           <label for="web" class="propiedad">Web personal</label>
-        </li>
+  
        
-        <li class="fila">
-          <input type="date" id="fecha" name="birthdate" />
+        
+          <input type="date"  class="form-control" id="fecha" name="birthdate" />
           <label for="fecha" class="propiedad">Fecha de nacimiento</label>
-        </li>
-       
-        <li class="fila">
-          <input type="number" id="edad" name="age" class="small" value="18" readonly="readonly" disabled="disabled" />
-          <label for="edad" class="propiedad">Edad</label>
-        </li>
-      
-        <li class="fila">
-          <input type="number" id="hermanos" name="siblings" class="small" min="1" max="50" value="1" />
-          <label for="hermanos" class="propiedad">Nº de hermanos</label>
-        </li>
+  
         
-        <li class="fila">
-          <input type="range" id="salario" name="earnings" min="600" max="2000" step="200" value="1000" list="valores-salario" onchange="document.querySelector('#salario-output').value = value;"/>
-          <label for="salario" class="propiedad">Salario</label>
-          <output for="salario" id="salario-output">1000</output>
-          <datalist id="valores-salario">
-	          <option>600</option>
-	          <option>800</option>
-            <option>1000</option>
-            <option>1200</option>
-            <option>1400</option>
-            <option>1600</option>
-            <option>1800</option>
-            <option>2000</option>
-          </datalist>
-        </li>
-     
-        <li class="fila">
-          <input type="color" id="color" value="#FF0000" onchange="document.querySelector('#color-output').value = value;" />
-          <label for="color" class="propiedad">Color preferido</label>
-          <output for="color" id="color-output">#FF0000</output>
-        </li>
-    
-        <li class="fila">
-          <input type="checkbox" id="premium" name="premium" checked="checked" />
-          <label for="premium" class="propiedad">Usuario Premium</label>
-        </li>
-        
-        <li class="fila">
-          <input type="radio" id="hombre" name="genre" value="hombre" />
-          <label for="hombre" class="de-radio">Hombre</label>
-          <input type="radio" id="mujer" name="genre" value="mujer" checked="checked" />
-          <label for="mujer" class="de-radio">Mujer</label>
-          <label for="genero" class="propiedad">Género</label>
-        </li>
-     
-     
-      
         <li class="fila">
           <select id="estudios" name="studies" required="required">
             <option value="">- Seleccione -</option>
@@ -110,43 +63,108 @@ export const Usuario = () => {
           <label for="idiomas" class="propiedad">Idiomas</label>
         </li>
      
-        <li class="fila botonera">
-          <button type="submit">Aceptar</button>
-          <button type="reset">Reiniciar</button>   
-        </li>
+         
+          <button button class="btn btn-primary bt-lg btn-block" type="submit">Aceptar</button>
+          <button button class="btn btn-danger bt-lg btn-block" type="reset">Reiniciar</button>   
+       
       </ul>
-      <div>
+      <div className='contenido'>
         <h1> Agregar Tarjeta</h1>
-
-        <div>
-      <label>
-      <span>Correo electrónico</span>
-      <input type="text" size="20" data-culqi="card[email]" id="card[email]"/>
-    </label>
-      </div>
       <div>
     <label>
       <span>Número de tarjeta</span>
-      <input type="text" size="20" data-culqi="card[number]" id="card[number]"/>
+      <input type="text" class="form-control" size="20" data-culqi="card[number]" id="card[number]"/>
     </label>
-  </div>
+   </div>
+
   <div>
     <label>
       <span>Código de seguridad</span>
-      <input type="text" size="4" data-culqi="card[cvv]" id="card[cvv]"/>
+      <input type="text" class="form-control" size="4" data-culqi="card[cvv]" id="card[cvv]"/>
     </label>
   </div>
 
   <div>
     <label>
       <span>Fecha expiración (MM/YYYY)</span>
-      <input type="text" size="2" data-culqi="card[exp_month]" id="card[exp_month]"/>
+      <input type="text" class="form-control" size="2" data-culqi="card[exp_month]" id="card[exp_month]"/>
     </label>
     <span>/</span>
-    <input type="text" size="4" data-culqi="card[exp_year]" id="card[exp_year]"/>
+    <input type="text" class="form-control" size="2" data-culqi="card[exp_year]" id="card[exp_year]"/>
   </div>
-  <button  type="button" id="buyButton">Guardar datos bancarios</button>
+  <div>
+          <button class="btn btn-primary bt-lg btn-block" type="submit">Agregar tarjeta</button>
+          <button class="btn btn-danger bt-lg btn-block" type="reset">Eliminar tarjeta</button>   
+        </div>
       </div>
+
+<div>
+<h1>Agregar direccion</h1>
+
+<div class="form-group">
+					<label for="adress">Address</label>
+					<input type="text" class="form-control" id="adress" placeholder="1234 Main Street" required/>
+					<div class="invalid-feedback">
+						Please enter your shipping address.
+					</div>
+				</div>
+
+        <div class="form-group">
+					<label for="address2">Address 2
+						<span class="text-muted">(Optional)</span>
+					</label>
+					<input type="text" class="form-control" id="adress2" placeholder="Flat No"/>
+				</div>
+
+        <div class="row">
+					<div class="col-md-4 form-group">
+						<label for="country">Country</label>
+						<select type="text" class="form-control" id="country">
+							<option value>Choose...</option>
+							<option>United Kingdom</option>
+						</select>
+						<div class="invalid-feedback">
+							Please select a valid country.
+						</div>
+					</div>
+
+					<div class="col-md-4 form-group">
+						<label for="city">City</label>
+						<select type="text" class="form-control" id="city">
+							<option value>Choose...</option>
+							<option>London</option>
+						</select>
+						<div class="invalid-feedback">
+							Please provide a valid city.
+						</div>
+					</div>
+						
+					<div class="col-md-4 form-group">
+						<label for="postcode">Postcode</label>
+						<select type="text" class="form-control" id="postcode">
+							<option value>Choose...</option>
+							<option>NW6 2LS</option>
+						</select>
+						<div class="invalid-feedback">
+							Postcode required.
+						</div>
+					</div>
+				</div>
+
+        <div class="form-check">
+					<input type="checkbox" class="form-check-input" id="shipping-adress"/> 
+						Shipping address is the same as my billing address
+					<label for="shipping-adress" class="form-check-label"></label>
+				</div>
+        <button class="btn btn-primary bt-lg btn-block" type="submit">Guardar direccion</button>
+</div>
+
+
+       
+			
+			
+     
+
     </form>
   </div>
 
